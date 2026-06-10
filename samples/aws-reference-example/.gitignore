@@ -1,0 +1,10 @@
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+lambda.zip
+
+# CRS generated memory (contains infrastructure details)
+.crs/

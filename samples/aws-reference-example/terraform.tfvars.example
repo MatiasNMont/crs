@@ -1,0 +1,21 @@
+project     = "insurance-platform"
+environment = "dev"
+aws_region  = "us-east-1"
+
+cognito_callback_urls = [
+  "https://app.example.com/callback",
+  "insurance-mobile://callback"
+]
+
+cognito_logout_urls = [
+  "https://app.example.com/logout",
+  "insurance-mobile://logout"
+]
+
+api_allowed_origins = ["https://app.example.com"]
+
+tags = {
+  Owner      = "InsurancePlatform"
+  CostCenter = "DigitalChannels"
+}
+
